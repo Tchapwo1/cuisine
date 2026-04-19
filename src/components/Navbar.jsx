@@ -42,7 +42,7 @@ export default function Navbar() {
           </button>
           
           <button className="flex items-center space-x-2 px-4 py-2 bg-stimulant hover:bg-soul-display hover:text-white transition-all rounded-full font-utility font-bold text-fluid-xs uppercase tracking-wider">
-            <span>Join Protocol</span>
+            <span>Join the Circuit</span>
           </button>
         </div>
       </div>

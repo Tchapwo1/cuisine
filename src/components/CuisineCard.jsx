@@ -20,7 +20,7 @@ export default function CuisineCard({ restaurant }) {
 
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all transform translate-y-4 group-hover:translate-y-0">
           <div className="bg-stimulant text-soul-ui font-utility font-black px-6 py-2 rounded-full uppercase tracking-tighter flex items-center space-x-2">
-            <span>View Dossier</span>
+            <span>View Table</span>
             <ArrowUpRight size={16} />
           </div>
         </div>
@@ -28,8 +28,8 @@ export default function CuisineCard({ restaurant }) {
 
       <div className="space-y-1">
         <div className="flex items-center justify-between">
-          <span className="mono-label text-cool-ui text-opacity-60">{district}</span>
-          <span className="mono-label text-cool-ui text-opacity-60">{price}</span>
+          <span className="mono-label text-cool-ui opacity-80">{district}</span>
+          <span className="mono-label text-cool-ui opacity-80">{price}</span>
         </div>
         
         <h3 className="text-fluid-lg font-editorial text-soul-ui group-hover:text-soul-display transition-colors">

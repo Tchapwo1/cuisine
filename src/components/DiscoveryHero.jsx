@@ -14,7 +14,7 @@ export default function DiscoveryHero() {
               Edition 01 / Spring 2026
             </span>
             <h1 className="text-fluid-display font-editorial text-soul-display leading-[0.9] mt-6">
-              The Best Tables <br /> in London Tonight
+              Discover the Best Tables <br /> in London Tonight
             </h1>
           </motion.div>
 
@@ -43,37 +43,41 @@ export default function DiscoveryHero() {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.2, duration: 1, ease: "circOut" }}
-            className="absolute inset-0 bg-gradient-to-tr from-soul-display via-cool-display to-stimulant opacity-20 blur-3xl rounded-full animate-pulse"
+            className="absolute inset-0 bg-gradient-to-tr from-soul-display via-cool-display to-stimulant opacity-[0.07] blur-3xl rounded-full"
           />
           
-          <div className="absolute inset-0 grid grid-cols-2 gap-4 p-8">
+          <div className="absolute inset-0 grid grid-cols-2 grid-rows-2 gap-4 p-8">
             <motion.div 
                whileHover={{ scale: 1.05, rotate: -2 }}
                className="bg-soul-display h-full rounded-2xl shadow-2xl relative overflow-hidden group"
             >
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
+                <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors" />
                 <div className="absolute bottom-6 left-6 text-white font-editorial text-2xl">Bermondsey</div>
             </motion.div>
-            <div className="space-y-4">
-               <motion.div 
+             <motion.div 
                  whileHover={{ scale: 1.05, rotate: 2 }}
-                 className="bg-cool-display h-[45%] rounded-2xl shadow-xl overflow-hidden group"
+                 className="bg-cool-display h-full rounded-2xl shadow-xl overflow-hidden group relative"
                >
                  <div className="absolute bottom-4 left-4 text-canvas font-editorial text-xl">The Docks</div>
                </motion.div>
                <motion.div 
                  whileHover={{ scale: 1.05, rotate: -1 }}
-                 className="bg-stimulant h-[50%] rounded-2xl shadow-xl overflow-hidden group"
+                 className="bg-stimulant h-full rounded-2xl shadow-xl overflow-hidden group relative"
                >
                  <div className="absolute bottom-4 left-4 text-soul-ui font-editorial text-xl">Arches</div>
                </motion.div>
-            </div>
+               <motion.div 
+                 whileHover={{ scale: 1.05, rotate: 1 }}
+                 className="bg-soul-ui h-full rounded-2xl shadow-xl overflow-hidden group relative"
+               >
+                 <div className="absolute bottom-4 left-4 text-canvas font-editorial text-xl">Vaults</div>
+               </motion.div>
           </div>
         </div>
       </div>
       
       {/* Editorial Watermark */}
-      <div className="absolute -bottom-16 -right-16 text-[20vw] font-editorial text-soul-ui/5 select-none pointer-events-none uppercase">
+      <div className="absolute -bottom-16 -right-16 text-[20vw] font-editorial text-soul-ui/[0.04] select-none pointer-events-none uppercase">
         cuisine
       </div>
     </section>

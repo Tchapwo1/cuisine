@@ -9,7 +9,7 @@
   --color-stimulant: #DAE031;
   
   --color-soul-ui: #9020A0;
-  --color-cool-ui: #1A9096;
+  --color-cool-ui: #0F6B6F;
 
   --font-editorial: "Newsreader", serif;
   --font-utility: "JetBrains Mono", monospace;
@@ -27,7 +27,7 @@
 :root {
   background-color: var(--color-canvas);
   color: #1a1a1a;
-  font-family: var(--font-utility);
+  font-family: var(--font-editorial);
   font-size: var(--text-fluid-base);
 }
 
