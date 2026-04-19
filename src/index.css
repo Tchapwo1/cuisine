@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F7F6F2;
+  
+  --color-soul-display: #E031DA;
+  --color-cool-display: #31DAE0;
+  --color-stimulant: #DAE031;
+  
+  --color-soul-ui: #9020A0;
+  --color-cool-ui: #1A9096;
+
+  --font-editorial: "Newsreader", serif;
+  --font-utility: "JetBrains Mono", monospace;
+
+  /* Fluid Typography Scale */
+  --text-fluid-xs: clamp(0.7rem, 0.6rem + 0.5vw, 0.9rem);
+  --text-fluid-sm: clamp(0.8rem, 0.7rem + 0.6vw, 1rem);
+  --text-fluid-base: clamp(1rem, 0.9rem + 0.8vw, 1.25rem);
+  --text-fluid-lg: clamp(1.25rem, 1.1rem + 1vw, 1.75rem);
+  --text-fluid-xl: clamp(1.5rem, 1.3rem + 1.5vw, 2.5rem);
+  --text-fluid-2xl: clamp(2rem, 1.5rem + 3vw, 4rem);
+  --text-fluid-display: clamp(3rem, 2rem + 6vw, 8rem);
+}
+
+:root {
+  background-color: var(--color-canvas);
+  color: #1a1a1a;
+  font-family: var(--font-utility);
+  font-size: var(--text-fluid-base);
+}
+
+h1, h2, h3, .editorial {
+  font-family: var(--font-editorial);
+  line-height: 1.1;
+}
+
+.mono-label {
+  font-family: var(--font-utility);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: var(--text-fluid-xs);
+}
