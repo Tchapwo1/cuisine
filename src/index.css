@@ -14,14 +14,14 @@
   --font-editorial: "Newsreader", serif;
   --font-utility: "JetBrains Mono", monospace;
 
-  /* Fluid Typography Scale */
-  --text-fluid-xs: clamp(0.7rem, 0.6rem + 0.5vw, 0.9rem);
-  --text-fluid-sm: clamp(0.8rem, 0.7rem + 0.6vw, 1rem);
-  --text-fluid-base: clamp(1rem, 0.9rem + 0.8vw, 1.25rem);
-  --text-fluid-lg: clamp(1.25rem, 1.1rem + 1vw, 1.75rem);
-  --text-fluid-xl: clamp(1.5rem, 1.3rem + 1.5vw, 2.5rem);
-  --text-fluid-2xl: clamp(2rem, 1.5rem + 3vw, 4rem);
-  --text-fluid-display: clamp(3rem, 2rem + 6vw, 8rem);
+  /* Refined, more restrained Fluid Typography Scale */
+  --text-fluid-xs: clamp(0.7rem, 0.65rem + 0.2vw, 0.85rem);
+  --text-fluid-sm: clamp(0.85rem, 0.8rem + 0.3vw, 0.95rem);
+  --text-fluid-base: clamp(1rem, 0.95rem + 0.4vw, 1.15rem);
+  --text-fluid-lg: clamp(1.2rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-fluid-xl: clamp(1.4rem, 1.25rem + 1vw, 2.2rem);
+  --text-fluid-2xl: clamp(1.8rem, 1.6rem + 2vw, 3.2rem);
+  --text-fluid-display: clamp(2.5rem, 2rem + 4vw, 5.5rem);
 }
 
 :root {
