@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export default function DiscoveryHero() {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative pt-8 pb-24 overflow-hidden">
       <div className="flex flex-col md:flex-row items-center justify-between gap-16">
         <div className="flex-1 space-y-8 z-10">
           <motion.div
